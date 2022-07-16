@@ -12,11 +12,11 @@
     <link rel="shortcut icon"
         href="https://cdn.sonicadigital.com.br/entra21/storage/header/257/original-61f8610472d4f.png"
         type="image/x-icon">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
 
 </head>
 
-<body class="container-fluid bg-secondary">
+<body class="container bg-secondary">
 
     <header class="row">
         <section class="col">
@@ -30,25 +30,48 @@
 
 
     </header>
- 
+
     <main class="row pt-2">
         <section class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <nav>
-                            <ul>
-                                <li><a href="/aula01.html" class="btn btn-outline-success">Aula 01 - Somente Console</a></li>
-                                <li></li>
-                                <li></li>   
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </nav>
-                    </div>
+            <div class="card">
+                <div class="card-body text-center">
+                    <nav>
+
+                        <div class="accordion" id="accordionAulas">
+                            <div class="col-6 accordion-item h-25 d-inline-block">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <h5>Aula 01</h1>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-center">
+                                        <a href="/aula01.html" class="btn btn-sm btn-outline-success">Introdução ao JavaScript</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 accordion-item h-25 d-inline-block" >
+                                <h6 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <h5>Aula 02</h5>
+                                    </button>
+                                </h6>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-center">
+                                        <a href="/aula02.html" class="btn btn-sm btn-outline-success ">Arrays e Funções</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </nav>
                 </div>
+            </div>
 
         </section>
 
