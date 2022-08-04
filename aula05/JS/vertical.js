@@ -17,10 +17,10 @@ $("<header>", { class: "row" }).append(
     .appendTo("body")
 
 $("<main>", { class: "mt-2 row" }).append(
-    $("<section>", { class: "col-3" }).append(
+    $("<section>", { class: "col-2" }).append(
         $("<div>", { class: "card" }).append(
             $("<div>", { class: "card-body text-center" }).append(
-                $("<a>", { class: "col btn btn-large btn-outline-success", href: "/horizontal.html", text: "Página Horizontal" }),
+                $("<a>", { class: "btn btn-large btn-outline-success", href: "/horizontal.html", text: "Página Horizontal" }),
                 $("<a>", { class: "mt-1 btn btn-large btn-outline-success", href: "/crud.html", text: "CRUD" })
             )
 

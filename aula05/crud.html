@@ -14,30 +14,28 @@
     </style>
 </head>
 
-<body style="background-color:#0d4a76;font-family: 'Comfortaa', cursive;" class="container">
-    <header class="row mb-4">
+<body style="background: rgba(14,66,94,1) ;font-family: 'Comfortaa', cursive;" class="container">
+    <header class="pt-2 row mb-4">
         <section class="col">
-            <div class="card">
+            <div class="card bg-secondary text-bg-dark">
                 <div class="card-body text-center">
                     <h1>Crud de pessoas</h1>
-                    <a href="/vertical.html" class="btn btn-outline-primary me-2">Vertical</a>
-                    <a href="/horizontal.html" class="btn btn-outline-primary me-2">Horizontal</a>
+                    <a href="/vertical.html" class="btn btn-sm btn-outline-light me-2">Vertical</a>
+                    <a href="/horizontal.html" class="btn btn-sm btn-outline-light me-2">Horizontal</a>
                 </div>
-                <div class="card-footer">
-                    <div class="card-body text-center"></div>
-                </div>
+                
             </div>
         </section>
     </header>
 
     <section class="row">
         <aside class="col-3">
-            <div class="card">
-                <div class="card-header">Formulário</div>
+            <div class="card bg-secondary text-bg-dark">
+                <div class="text-center card-header fw-bolder">Formulário</div>
                 <form>
-                    <div class="card-body">
+                    <div class="card-body fw-semibold">
                         <label for="nome">Nome</label>
-                        <input type="text" id="nome" class="form-control" required />
+                        <input type="text" id="nome" class=" form-control" required />
 
                         <div class="row">
                             <div class="col-4">
@@ -51,24 +49,24 @@
                         </div>
                     </div>
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-outline-success" id="add">
-                            Add
+                        <button type="submit" class="btn btn-lg btn-success" id="add">
+                            <img src="/Mídias/users-add-profile-avatar-user-account-svgrepo-com.svg" alt="">
                         </button>
-                        <button type="submit" class="btn btn-outline-primary" id="update">
-                            Update
+                        <button type="submit" class="btn btn-lg btn-primary" id="update">
+                            <img src="/Mídias/users-more-profile-avatar-user-account-svgrepo-com.svg" alt="">
                         </button>
-                        <button type="reset" class="btn btn-outline-danger" id="clean">
-                            Clean
+                        <button type="reset" class="btn btn-danger" id="clean">
+                            <img src="/Mídias/clear.svg" width="26px" height="31px" alt="">
                         </button>
                     </div>
                 </form>
             </div>
         </aside>
         <main class="col">
-            <div class="card">
-                <div class="card-header">Dados</div>
+            <div class="card bg-secondary text-bg-dark text-center">
+                <div class="card-header fw-bolder">Dados</div>
                 <div class="card-body">
-                    <table class="table table-bordered table-striped table-hover">
+                    <table class="table table-bordered table-striped table-dark table-hover">
                         <thead>
                             <th>Nome</th>
                             <th>Idade</th>
@@ -81,8 +79,12 @@
                                 <td>Idade de exemplo</td>
                                 <td>Cidade de exemplo</td>
                                 <td>
-                                    <button class="btn btn-outline-primary">Edit</button>
-                                    <button class="btn btn-outline-danger">Delete</button>
+                                    <button class="btn btn-lg btn-primary"><img
+                                            src="/Mídias/users-more-profile-avatar-user-account-svgrepo-com.svg"
+                                            alt=""></button>
+                                    <button class="btn btn-lg btn-danger"><img
+                                            src="/Mídias/users-remove-profile-avatar-user-account-svgrepo-com.svg"
+                                            alt=""></button>
                                 </td>
                             </tr>
                         </tbody>
