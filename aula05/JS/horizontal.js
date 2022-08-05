@@ -15,12 +15,12 @@ $("<header>", { class: "row" }).append(
             $("<div>", { class: "text-center card-footer" }).append(
                 $("<a>", {
                     class: "btn btn-lg btn-outline-success fw-lighter",
-                    href: "/vertical.html",
+                    href: "/aula05/vertical.html",
                     text: "Página Vertical"
                 }),
                 $("<a>", {
                     class: "m-2 btn btn-lg btn-outline-success fw-lighter",
-                    href: "/crud.html",
+                    href: "/aula05/crud.html",
                     text: "Crud"
                 }),
             )

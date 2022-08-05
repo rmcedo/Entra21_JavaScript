@@ -20,8 +20,8 @@ $("<main>", { class: "mt-2 row" }).append(
     $("<section>", { class: "col-2" }).append(
         $("<div>", { class: "card" }).append(
             $("<div>", { class: "card-body text-center" }).append(
-                $("<a>", { class: "btn btn-large btn-outline-success", href: "/horizontal.html", text: "Página Horizontal" }),
-                $("<a>", { class: "mt-1 btn btn-large btn-outline-success", href: "/crud.html", text: "CRUD" })
+                $("<a>", { class: "btn btn-large btn-outline-success", href: "/aula05/horizontal.html", text: "Página Horizontal" }),
+                $("<a>", { class: "mt-1 btn btn-large btn-outline-success", href: "/aula05/crud.html", text: "CRUD" })
             )
 
         )
