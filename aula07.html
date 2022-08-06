@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>JavaScript | Aula 07 - Página consumindo API</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx' crossorigin='anonymous'>
+    <link rel="stylesheet" href="/CSS/template.css">
+</head>
+
+<body style="background-color: #072064;" class="container-fluid">
+    <header class="">
+        <div class="row">
+            <div class="slide-in-elliptic-top-fwd col text-center pt-5"><img src="/Mídias/pokemonLogo.png" alt=""></div>
+        </div>
+        <div class="row">
+            <div style="color: white;" class="pt-5 col text-center fonte1 heartbeat">
+                <h1>SEJA BEM-VINDO AO SEU POKEDEX</h1>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="row">
+            <div class="col text-center">
+                <h1 style="color: white; font-size: 25px;" class="fonte1 pt-5 text-center">Qual POKEMON deseja
+                    visualizar?</h1>
+
+                <form id="nome"><input style="font-size: 20px;" type="text" class="pt-2 pb-2 fonte2 mt-3 text-center rounded-5 col-2"
+                        placeholder="Número do seu POKEMON" id="pokemon"><span><img class="m-2 btn btn-sm btn-primary" src="/Mídias/correct-symbol.png" width="45px"
+                        heigth="20px" id="buscar"></span></form>
+                
+            </div>
+        </div>
+
+        <div class="text-center row container-fluid ">
+
+
+            <div class="pt-5 col-3 mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 style="font-size: 25px;" class="text-center fonte1">Nome</h1>
+                        <div class="card-footer" id="resultado">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 col mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 style="font-size: 25px;" class="text-center fonte1">Pokemon</h1>
+                        <div class="card-footer"><p id="result_img"></p></div>
+
+                    </div>
+                
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa'
+        crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src='/js/aula07.js'></script>
+</body>
+
+</html>
